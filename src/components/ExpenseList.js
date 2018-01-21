@@ -7,7 +7,7 @@ const ExpenseList = (props) => (
         <h1>List of expenses</h1>
         <ul>
             {props.expenses.map((expense) =>
-                <li key={expense.id}><ExpenseListItem {...expense} />{console.log(expense)}</li>
+                <li key={expense.id}><ExpenseListItem {...expense} /></li>
             )}
         </ul>
     </div>
